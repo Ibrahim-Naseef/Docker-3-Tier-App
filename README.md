@@ -86,13 +86,13 @@ DB_PORT=3306
 ### 5. Build and Run with Docker Compose
 ```bash
 # Build all containers
-docker-compose build
+docker compose build
 
 # Start all services
-docker-compose up -d
+docker compose up -d
 
 # View logs
-docker-compose logs -f
+docker compose logs -f
 ```
 
 ### 6. Initialize Database
