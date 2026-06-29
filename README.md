@@ -56,8 +56,9 @@ ssh -i your-key.pem ubuntu@<EC2_PUBLIC_IP>
 
 ### 2. Update System and Install Docker
 ```bash
-sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install docker.io docker-compose git -y
+sudo apt-get update
+sudo apt-get install docker.io
+sudo apt-get install docker-compose-v2
 sudo usermod -aG docker $USER
 newgrp docker
 ```
